@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter user name tomsmith to username field [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> xpath: //input[@id='username']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter user SuperSecretPassword! to password field [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> css selector: i[class='fa fa-2x fa-sign-in']]]]>
+    </line>
+    <line>
+      <![CDATA[Verification Text is [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> xpath: //h2[text() =' Secure Area']]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name tomsmith to username field [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> xpath: //input[@id='username']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter user SuperSecretPassword to password field [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> css selector: i[class='fa fa-2x fa-sign-in']]]]>
+    </line>
+    <line>
+      <![CDATA[The error message is [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> xpath: //div[1]/div/div|/text()]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name tomsmith1 to username field [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> xpath: //input[@id='username']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter user SuperSecretPassword! to password field [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login Button [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> css selector: i[class='fa fa-2x fa-sign-in']]]]>
+    </line>
+    <line>
+      <![CDATA[The error message is [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> xpath: //div[1]/div/div|/text()]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression suite" duration-ms="11798" started-at="2022-12-13T21:55:32 GMT" finished-at="2022-12-13T21:55:44 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.theinternet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="verifyThePasswordErrorMessage" class="com.herokuapp.theinternet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.theinternet.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.theinternet.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="userShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.theinternet.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="11798" started-at="2022-12-13T21:55:32 GMT" finished-at="2022-12-13T21:55:44 GMT">
+      <class name="com.herokuapp.theinternet.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="setUp" is-config="true" duration-ms="3390" started-at="2022-12-13T21:55:32 GMT" finished-at="2022-12-13T21:55:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="inIt" is-config="true" duration-ms="12" started-at="2022-12-13T21:55:36 GMT" finished-at="2022-12-13T21:55:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="userShouldLoginSuccessfullyWithValidCredentials" duration-ms="415" started-at="2022-12-13T21:55:36 GMT" finished-at="2022-12-13T21:55:36 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name tomsmith to username field [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> xpath: //input[@id='username']]]]>
+            </line>
+            <line>
+              <![CDATA[Enter user SuperSecretPassword! to password field [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> css selector: i[class='fa fa-2x fa-sign-in']]]]>
+            </line>
+            <line>
+              <![CDATA[Verification Text is [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> xpath: //h2[text() =' Secure Area']]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="600" started-at="2022-12-13T21:55:36 GMT" finished-at="2022-12-13T21:55:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="setUp" is-config="true" duration-ms="2084" started-at="2022-12-13T21:55:37 GMT" finished-at="2022-12-13T21:55:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-13T21:55:39 GMT" finished-at="2022-12-13T21:55:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="verifyThePasswordErrorMessage" duration-ms="360" started-at="2022-12-13T21:55:39 GMT" finished-at="2022-12-13T21:55:39 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name tomsmith to username field [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> xpath: //input[@id='username']]]]>
+            </line>
+            <line>
+              <![CDATA[Enter user SuperSecretPassword to password field [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> css selector: i[class='fa fa-2x fa-sign-in']]]]>
+            </line>
+            <line>
+              <![CDATA[The error message is [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> xpath: //div[1]/div/div|/text()]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="612" started-at="2022-12-13T21:55:40 GMT" finished-at="2022-12-13T21:55:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="setUp" is-config="true" duration-ms="2210" started-at="2022-12-13T21:55:40 GMT" finished-at="2022-12-13T21:55:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="verifyTheUsernameErrorMessage" duration-ms="370" started-at="2022-12-13T21:55:43 GMT" finished-at="2022-12-13T21:55:43 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name tomsmith1 to username field [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> xpath: //input[@id='username']]]]>
+            </line>
+            <line>
+              <![CDATA[Enter user SuperSecretPassword! to password field [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on Login Button [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> css selector: i[class='fa fa-2x fa-sign-in']]]]>
+            </line>
+            <line>
+              <![CDATA[The error message is [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> xpath: //div[1]/div/div|/text()]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-13T21:55:43 GMT" finished-at="2022-12-13T21:55:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4]" name="tearDown" is-config="true" duration-ms="587" started-at="2022-12-13T21:55:43 GMT" finished-at="2022-12-13T21:55:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.testsuite.LoginPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression suite -->
+</testng-results>

@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 21:55:32 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11798 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.herokuapp.theinternet.testsuite.LoginPageTest.verifyTheUsernameErrorMessage()'><b>verifyTheUsernameErrorMessage</b><br>Test class: com.herokuapp.theinternet.testsuite.LoginPageTest<br/>
+<a href="#Output-1677840544" onClick='toggleBox("Output-1677840544", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1677840544" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677840544">
+Enter user name tomsmith1 to username field [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> xpath: //input[@id='username']]<br/>
+Enter user SuperSecretPassword! to password field [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> name: password]<br/>
+Click on Login Button [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> css selector: i[class='fa fa-2x fa-sign-in']]<br/>
+The error message is [[ChromeDriver: chrome on WINDOWS (603208e6faa4e49fff08386de9b2e379)] -> xpath: //div[1]/div/div|/text()]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyTheUsernameErrorMessageTue_Dec_13_21_55_43_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4</td></tr>
+<tr>
+<td title='com.herokuapp.theinternet.testsuite.LoginPageTest.verifyThePasswordErrorMessage()'><b>verifyThePasswordErrorMessage</b><br>Test class: com.herokuapp.theinternet.testsuite.LoginPageTest<br/>
+<a href="#Output-22790969" onClick='toggleBox("Output-22790969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22790969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22790969">
+Enter user name tomsmith to username field [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> xpath: //input[@id='username']]<br/>
+Enter user SuperSecretPassword to password field [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> name: password]<br/>
+Click on Login Button [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> css selector: i[class='fa fa-2x fa-sign-in']]<br/>
+The error message is [[ChromeDriver: chrome on WINDOWS (9aaea34f1cc1432fc678de285f5986c0)] -> xpath: //div[1]/div/div|/text()]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/verifyThePasswordErrorMessageTue_Dec_13_21_55_40_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4</td></tr>
+<tr>
+<td title='com.herokuapp.theinternet.testsuite.LoginPageTest.userShouldLoginSuccessfullyWithValidCredentials()'><b>userShouldLoginSuccessfullyWithValidCredentials</b><br>Test class: com.herokuapp.theinternet.testsuite.LoginPageTest<br/>
+<a href="#Output-807986446" onClick='toggleBox("Output-807986446", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807986446" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807986446">
+Enter user name tomsmith to username field [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> xpath: //input[@id='username']]<br/>
+Enter user SuperSecretPassword! to password field [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> name: password]<br/>
+Click on Login Button [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> css selector: i[class='fa fa-2x fa-sign-in']]<br/>
+Verification Text is [[ChromeDriver: chrome on WINDOWS (94c2b9220c79b45b7790498ff213dd9b)] -> xpath: //h2[text() =' Secure Area']]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project6-herokuapp-pagefactory-nauman/test-output/html/userShouldLoginSuccessfullyWithValidCredentialsTue_Dec_13_21_55_36_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.herokuapp.theinternet.testsuite.LoginPageTest@646007f4</td></tr>
+</table><p>
+</body>
+</html>
